@@ -9,7 +9,7 @@ public class CountingFractions {
         System.out.print("Enter the limit for d (e.g., 12000): ");
         int limit = scanner.nextInt();
 
-        int count = 0;  // Counter for valid fractions
+        int count = 0;
 
         // Iteration of all denominators
         for (int d = 2; d <= limit; d++) {
